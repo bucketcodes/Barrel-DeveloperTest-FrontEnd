@@ -6,7 +6,10 @@ export default function Hero({ backgroundURL, title, content, imageURL }) {
     <div
       className="Hero_Container"
       style={{
-        background: `linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 59%, rgba(0, 0, 0, 0.85) 100%), url(${backgroundURL}) center center no-repeat`
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundImage: `linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 59%, rgba(0, 0, 0, 0.85) 100%), url(${backgroundURL})`
+        
       }}
     >
       <div className="Hero_Container_Inner">

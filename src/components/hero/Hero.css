@@ -13,7 +13,9 @@
         height: 100vh;
         width: 100%;
         background-size: cover;
-        position: 'relative';
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        position: relative;
 
       }
       
@@ -51,6 +53,8 @@
         height: 1000px;
         width: 100%;
         background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
       }
       
       .Hero_Container_Inner {
@@ -87,7 +91,11 @@
         z-index: 1px;
         height: 600px;
         width: 100%;
+        margin:0;
+        padding:0;
         background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
       }
       
       .Hero_Container_Inner {
